@@ -7,3 +7,5 @@ def services(request):
     return HttpResponse("This is services")
 def contract(request):
     return HttpResponse("This is contract")
+def static(request):
+    return HttpResponse("This is static")
