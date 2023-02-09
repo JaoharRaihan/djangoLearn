@@ -7,8 +7,11 @@ def index(request):
     return render(request,'index.html',context)
     # return HttpResponse("This is homepage")
 def about(request):
-    return HttpResponse("This is about")
+    # return HttpResponse("This is about")
+        return render(request,'about.html',context)
 def contract(request):
-    return HttpResponse("This is contract")
+    # return HttpResponse("This is contract")
+        return render(request,'contract.html',context)
 def Photos(request):
-    return HttpResponse("This is Photos")
+    # return HttpResponse("This is Photos")
+        return render(request,'Photos.html',context)
